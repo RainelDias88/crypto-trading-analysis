@@ -64,7 +64,7 @@ Aqui estão alguns exemplos dos gráficos gerados pelo projeto:
 - **Logging** para monitoramento do sistema
 
 ## 👨‍💻 Autor
-[Seu Nome](https://www.linkedin.com/in/felipe-rainel)
+[Felipe Rainel](https://www.linkedin.com/in/felipe-rainel)
 
 ## ✨ Licença
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
