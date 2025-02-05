@@ -67,4 +67,4 @@ Aqui estão alguns exemplos dos gráficos gerados pelo projeto:
 [Felipe Rainel](https://www.linkedin.com/in/felipe-rainel)
 
 ## ✨ Licença
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE.txt) para mais detalhes.
