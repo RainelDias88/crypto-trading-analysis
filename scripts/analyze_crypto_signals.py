@@ -245,9 +245,9 @@ def calculate_indicators_for_all(df_all):
         group['signal'] = 0
         cond_buy = (
             (group['macd'] > group['macd_signal']) &
-            (group['adx'] > 25) &
-            (group['plus_di'] > group['minus_di']) &
-            (group['squeeze_on'] == True)
+            (group['adx'] > 20) &
+            (group['plus_di'] > group['minus_di']) 
+            # & (group['squeeze_on'] == True)
         )
         group.loc[cond_buy, 'signal'] = 1
         return group
@@ -363,9 +363,9 @@ def plot_single_crypto(df_crypto, save_path):
     for ax in [ax1, ax2, ax3, ax4]:
         for i in range(1, len(df_crypto)):
             if sqz_on[i]:
-                ax.axvspan(times[i-1], times[i], color='black', alpha=0.05)
+                ax.axvspan(times[i-1], times[i], color='black', alpha=0.1)
             elif sqz_off[i]:
-                ax.axvspan(times[i-1], times[i], color='green', alpha=0.05)
+                ax.axvspan(times[i-1], times[i], color='white', alpha=0.1)
 
     plt.tight_layout()
     plt.savefig(save_path, dpi=150)
