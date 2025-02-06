@@ -30,7 +30,7 @@ crypto-trading-analysis/
 ## 💪 Como Usar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/crypto-trading-analysis.git
+   git clone https://github.com/RainelDias88/crypto-trading-analysis.git
    cd crypto-trading-analysis
    ```
 
